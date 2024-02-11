@@ -1,42 +1,49 @@
-Intel-Hackaton RVCE 
-Team Name: Yash Saraogi
+## Intel-Hackaton RVCE - Stock Market Prediction
 
-Team Members:
-Yash Saraogi: yashsaraogi.cs23@rvce.edu.in
-Charan RK: charanrk2003@gmail.com
-Nishasri R: nishakumbar6104@gmail.com
-Vatsal Mehta: vatsalmehta163@gmail.com
+### Team Name: Yash Saraogi
 
-Problem Statement:
-Stock Market Prediction: Leveraging AI Analytics Toolkit for predicting stocks using company data (microsoft) in intel oneAPI AI analytics toolkit Hackathon Trained models
+#### Team Members:
+1. Yash Saraogi: yashsaraogi.cs23@rvce.edu.in
+2. Charan RK: charanrk2003@gmail.com
+3. Nishasri R: nishakumbar6104@gmail.com
+4. Vatsal Mehta: vatsalmehta163@gmail.com
 
-Intel One API AI Analytic Toolkit:
+## Problem Statement:
+Stock Market Prediction using AI Analytics Toolkit for predicting Microsoft stocks in the Intel OneAPI AI analytics toolkit Hackathon using trained models.
 
-We have utilised the toolkits provided by Intel in this project, providing us with amazing performances and effiiciency in our project. We have used few toolkits from the given to name a few: Modin, ITEX, Skikit learn.
+## Intel One API AI Analytic Toolkit:
+We leveraged the powerful toolkits provided by Intel for exceptional performance and efficiency in our project. Key toolkits utilized include Modin, ITEX, and Scikit-learn.
 
-Dataset: msft-daily-max
+## Dataset:
+- **Name:** msft-daily-max
 
-Tech Stack:
-	1. Intel® Extension for Scikit-learn*
-	2. Modin: Drop-in replacement for Pandas
-	3. Intel® Optimization for TensorFlow     
+## Tech Stack:
+1. **Intel® Extension for Scikit-learn:** Enhances Scikit-learn with Intel optimizations.
+2. **Modin:** Drop-in replacement for Pandas, designed for parallelizing data manipulation tasks.
+3. **Intel® Optimization for TensorFlow:** Boosts TensorFlow performance.
 
-Scikit-learn for Traditional Machine Learning:
-Scikit-learn is a powerful library for traditional machine learning algorithms. We have used multiple regression models like Support Vector Machine (SVM), Decision Tree, Random Forest and Linear Regression. They were all imported from the extensive library of scikit learn. 
+## Scikit-learn for Traditional Machine Learning:
+Utilized various regression models such as Support Vector Machine (SVM), Decision Tree, Random Forest, and Linear Regression from the Scikit-learn library.
 
-Modin for Pandas Parallelization:
-Modin is designed to accelerate data manipulation tasks using the Pandas library. It can efficiently parallelize Pandas operations, which is beneficial for handling large datasets in stock market analysis. Utilize Modin to speed up data preprocessing and exploration tasks, enabling quicker insights into your financial data.
+## Modin for Pandas Parallelization:
+Modin accelerates data manipulation tasks using Pandas, efficiently parallelizing operations for handling large datasets in stock market analysis.
 
-Intel oneAPI for Heterogeneous Parallel Computing:
-Complement scikit-learn and Modin with Intel oneAPI to harness the power of heterogeneous parallel computing. Use oneAPI's Data Parallel C++ to parallelize your machine learning algorithms, optimizing their performance across different hardware architectures. This is particularly useful for speeding up computations on CPUs, GPUs, and FPGAs.
+## Intel oneAPI for Heterogeneous Parallel Computing:
+Complemented Scikit-learn and Modin with Intel oneAPI to harness the power of heterogeneous parallel computing. Used oneAPI's Data Parallel C++ to parallelize machine learning algorithms, optimizing performance across different hardware architectures.
 
-Combined Approach for Enhanced Performance:
-Consider combining the strengths of scikit-learn, Modin, and Intel oneAPI for a holistic approach to stock market prediction. Utilize scikit-learn for traditional machine learning algorithms, Modin for efficient data manipulation, and oneAPI for parallelization across diverse hardware. This integrated approach can lead to improved performance and faster model development and evaluation.
+## Intel Developer Cloud Integration:
+To further enhance our project's scalability and performance, we utilized the Intel Developer Cloud. Leveraging cloud resources allowed us to seamlessly scale computations and optimize our models for various hardware configurations. This integration facilitated efficient collaboration and resource utilization throughout the development process.
 
-The model that gave us the best accuracy on the dataset was LSTM, it ia a long short-term memory networks that use (ANN) artificial neural networks in the field of artificial intelligence (AI) and deep learning. In contrast to normal feed-forward neural networks, also known as recurrent neural networks, these networks feature feedback connections.
+## Combined Approach for Enhanced Performance:
+Integrated Scikit-learn, Modin, Intel oneAPI, and Intel Developer Cloud for a comprehensive stock market prediction approach. Leveraged Scikit-learn for traditional machine learning, Modin for efficient data manipulation, and oneAPI for parallelization across diverse hardware. The Intel Developer Cloud played a crucial role in ensuring scalability and efficient utilization of cloud resources.
 
-Future Scopes
+## Best Performing Model: LSTM (Long Short-Term Memory Networks)
+LSTM, a type of artificial neural network (ANN) in deep learning, provided the best accuracy on the dataset. It features feedback connections and is effective in capturing intricate patterns within financial data.
 
-The future scope of stock market prediction using tools like scikit-learn, Modin, Intel oneAPI, and cloud platforms is promising and likely to witness advancements on multiple fronts. Firstly, the integration of artificial intelligence (AI) and machine learning (ML) techniques is expected to play a pivotal role. As technology continues to evolve, more sophisticated algorithms, including deep learning models such as recurrent neural networks (RNNs) and transformers, may become prevalent in stock market analysis. This shift towards more complex models has the potential to capture intricate patterns within financial data, providing more accurate predictions and aiding in more informed investment decisions.
+## Future Scopes:
+The future scope of stock market prediction using Scikit-learn, Modin, Intel oneAPI, and cloud platforms is promising. Anticipate advancements in AI and ML techniques, including the integration of complex models such as recurrent neural networks (RNNs) and transformers for more accurate predictions. Incorporation of real-time data, advanced data sources, and the rise of quantum computing may revolutionize stock market forecasting.
 
-Secondly, the incorporation of real-time data and advanced data sources could significantly enhance the predictive capabilities of stock market models. With the rise of big data technologies and improved data accessibility, financial analysts may integrate a diverse range of data, including social media sentiments, news articles, and global economic indicators, into their predictive models. This holistic approach could offer a more comprehensive understanding of market dynamics and contribute to more robust predictions. Moreover, the ongoing development of quantum computing technologies might introduce new paradigms for processing vast amounts of financial data, potentially revolutionizing the efficiency and speed of stock market prediction models. Overall, the future scope encompasses not only the refinement of existing methodologies but also the exploration of cutting-edge technologies to push the boundaries of stock market forecasting.
+**Note:** Ensure proper setup of Intel toolkits and dependencies for optimal performance. Refer to documentation for detailed instructions.
+
+---
+*Disclaimer: This README serves as documentation for the Intel OneAPI AI analytics toolkit Hackathon project and is subject to updates.*
