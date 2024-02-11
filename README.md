@@ -8,7 +8,7 @@ Nishasri R: nishakumbar6104@gmail.com
 Vatsal Mehta: vatsalmehta163@gmail.com
 
 Problem Statement:
-Stock Market Prediction: Leveraging LLM and AI Analytics Toolkit for predicting stocks using company data in intel oneAPI AI analytics toolkit Hackathon Trained models
+Stock Market Prediction: Leveraging AI Analytics Toolkit for predicting stocks using company data (microsoft) in intel oneAPI AI analytics toolkit Hackathon Trained models
 
 Intel One API AI Analytic Toolkit:
 
