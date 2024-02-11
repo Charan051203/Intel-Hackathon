@@ -22,6 +22,11 @@ We leveraged the powerful toolkits provided by Intel for exceptional performance
 - Download the stock file with and without intel tools as a comparison of the performance between the same.
 - Post downloading run the same on the intel developer cloud after creating the instance and running the notebook.
 
+- pip install chart_studio
+- pip install xgboost
+- pip install lime
+- pip install shapash
+
 ## Tech Stack:
 1. **Intel® Extension for Scikit-learn:** Enhances Scikit-learn with Intel optimizations.
 2. **Modin:** Drop-in replacement for Pandas, designed for parallelizing data manipulation tasks.
