@@ -15,7 +15,12 @@ Stock Market Prediction using AI Analytics Toolkit for predicting Microsoft stoc
 We leveraged the powerful toolkits provided by Intel for exceptional performance and efficiency in our project. Key toolkits utilized include Modin, ITEX, and Scikit-learn.
 
 ## Dataset:
-- **Name:** msft-daily-max
+- **Name:** msft-daily-max.csv (as attached above)
+
+## Steps:
+- Download the dataset csv file from the above attached
+- Download the stock file with and without intel tools as a comparison of the performance between the same.
+- Post downloading run the same on the intel developer cloud after creating the instance and running the notebook.
 
 ## Tech Stack:
 1. **Intel® Extension for Scikit-learn:** Enhances Scikit-learn with Intel optimizations.
