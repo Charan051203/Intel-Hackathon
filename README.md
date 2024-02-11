@@ -14,9 +14,7 @@ Intel One API AI Analytic Toolkit:
 
 We have utilised the toolkits provided by Intel in this project, providing us with amazing performances and effiiciency in our project. We have used few toolkits from the given to name a few: Modin, ITEX, Skikit learn.
 
-Dataset:
-
-Link
+Dataset: msft-daily-max
 
 Tech Stack:
 	1. Intel® Extension for Scikit-learn*
