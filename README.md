@@ -1,4 +1,4 @@
-## Intel-Hackaton RVCE - Stock Market Prediction
+## Intel-Hackaton RVCE - Stock Market Prediction 
 
 #### Team Members:
 2. Charan RK: charanrk2003@gmail.com
