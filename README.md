@@ -1,9 +1,6 @@
 ## Intel-Hackaton RVCE - Stock Market Prediction
 
-### Team Name: Yash Saraogi
-
 #### Team Members:
-1. Yash Saraogi: yashsaraogi.cs23@rvce.edu.in
 2. Charan RK: charanrk2003@gmail.com
 3. Nishasri R: nishakumbar6104@gmail.com
 4. Vatsal Mehta: vatsalmehta163@gmail.com
